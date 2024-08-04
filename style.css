@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;600;700&family=Outfit:wght@700&display=swap');
+*{
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    background-color: hsl(204, 43%, 93%);
+}
+.mainContainer{
+    width: 42%;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0px 20px 35px rgba(0,0,0,0.2);
+}
+.topContainer{
+    height: 43%;
+    background-color: #fff;
+    border-radius: 10px 10px 0 0;
+    padding: 30px 32px;
+}
+.topContainer h1{
+    font-size: 24px;
+    color: hsl(179, 62%, 43%);
+    font-weight: 600;
+}
+.topContainer .first{
+    font-weight: 700;
+    color: hsl(71, 73%, 54%);
+    padding-top: 20px;
+}
+.topContainer .second{
+    color: hsl(218, 22%, 67%);
+    line-height: 25px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.bottomLeftContainer{
+    width: 50%;
+    border-bottom-left-radius: 10px;
+    background-color: hsl(179, 62%, 43%);
+    float: left;
+}
+.bottomLeftContainer h3{
+    padding: 30px 0 0 32px;
+    color: #fff;
+}
+.bottomLeftContainer .value{
+    font-size: 32px;
+    color: #fff;
+    padding: 20px 0 0 32px;
+}
+.bottomLeftContainer .duration{
+    color: #61D5D3;
+    padding: 29px 0 0 12px;
+}
+.bottomLeftContainer .details{
+    color: #D5FFFF;
+    font-weight: 400;
+    padding: 7px 0 0 32px;
+}
+.bottomLeftContainer .button{
+    width: 75%;
+    height: 40px;
+    margin: 20px 0 30px 30px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    background-color: hsl(71, 73%, 54%);
+    box-shadow: 0px 20px 35px rgba(0,0,0,0.1);
+}
+.bottomRightContainer{
+    width: 50%;
+    border-bottom-right-radius: 10px;
+    background-color: hsl(179, 52%, 50%);
+    padding-bottom: 27px;
+    float: right;
+}
+.bottomRightContainer h3{
+    color: #fff;
+    padding: 30px 0 0 32px;
+}
+.bottomRightContainer ul{
+    padding: 20px 0 0 32px;
+    color: hsl(179, 62%, 85%);
+    font-family: 400;
+    list-style: none;
+    line-height: 18px;
+    font-size: 14px;
+}
